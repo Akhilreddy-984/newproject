@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="login.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+    body{
+            background-position: left right bottom top;
+            background-image: url('https://wallpaperaccess.com/download/messi-and-ronaldo-1780276');           
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+    </style>
+</head>
+<body>
+  <!-- <h2 style="text-align:center;color:darkorange">FIFA WORLDCUP 2020 </h2> -->
+  <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img src="https://www.dlf.pt/png/big/4/41659_la-liga-png.png" alt="logo" style="width:80px;">
+          <!-- <h1>AIG</h1> -->
+       </a>
+       
+       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mymodal">
+        FEEDBACK FORM
+      </button>
+      <div class="modal fade" id="mymodal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        WELCOME
+                    </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                  <textarea rows = "5" cols = "50" name = "description" STYLE="background-color: #F5B041">
+                    start writing .....
+                 </textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="close" data-dismiss="modal">
+                        Have a nice day..
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <a class="navbar-brand" href="index.html" style="color:blue"><b>HOME</b></a>
+        <a class="navbar-brand" href="fixtures.html" style="color:blue"><b>Statistics</b></a>
+        <a class="navbar-brand" href="news.html" style="color:blue"><b>Latest News and leader board</b></a>
+      </div>
+      <div>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item dropdown active bg-info">
+            <a class="nav-link dropdown-toggle" href="#"
+            id="navbardrop" data-toggle="dropdown">
+            Dropdown link
+        </a>
+        <div class="dropdown-menu ">
+            <a class="dropdown-item" href="#">link 1</a>
+            <a class="dropdown-item" href="#">link 2</a>
+            <a class="dropdown-item" href="#">link 3</a>
+        </div>
+
+        </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+  
+
+
+    
+    <div class="container-fluid">
+        <div class="row no-gutter">
+          <!-- <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div> -->
+          <div class="col-md-8 col-lg-6">
+            <div class="login d-flex align-items-center py-5">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-9 col-lg-8 mx-auto">
+                    <h3 style="color:blueviolet;">LOGIN TO BOOK TICKETS!</h3>
+                    <form >
+                      <div class="form-label-group">
+                        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                        <label for="inputEmail">Email address</label>
+                      </div>
+      
+                      <div class="form-label-group">
+                        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                        <label for="inputPassword">Password</label>
+                      </div>
+      
+                      <div class="custom-control custom-checkbox mb-3">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1" style="color:aliceblue">Remember password</label>
+                      </div>
+                      <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
+                      <div class="text-center">
+                        <a class="small" href="#">Forgot password?</a></div>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+
+      
+    
+</body>
+</html>
